@@ -15,7 +15,7 @@ class Reddit
       puts "NO COMMENTS"
       comments = []
     end
-    p comments.count
+    return comments.sample
   end
 
   private
