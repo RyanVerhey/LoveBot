@@ -33,6 +33,10 @@ class Reddit
     return comments.flatten
   end
 
+  def self.reply_to_comment(comment, text)
+    # reply to comment with text
+  end
+
   def self.submit(params) # title, message, sr, link = true, save = true, resubmit = false
     title =    params.fetch(:title, nil)
     message =  params.fetch(:message, nil)
